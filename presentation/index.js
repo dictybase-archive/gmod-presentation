@@ -1,30 +1,32 @@
 // Import React
 import React from "react";
 
-// Import slides
-import Intro from "./Intro";
-import DictybaseOverhaul from "./DictybaseOverhaul";
-import DatabaseMigration from "./DatabaseMigration";
-import Architecture from "./Architecture";
-import DictyStockCenter from "./DictyStockCenter";
-import StockProperties from "./StockProperties";
-import StockInventories from "./StockInventories";
-import LegacyDataModel from "./LegacyDataModel";
-import ChadoStcokModule from "./ChadoStcokModule";
-import DictyBaseStocks from "./DictyBaseStocks";
-import GenotypePhenotype from "./GenotypePhenotype";
-import Plasmid from "./Plasmid";
-import Users from "./Users";
-import Authentication from "./Authentication";
-import OAuth from "./OAuth";
-import OauthProviders from "./OauthProviders";
-import Orcid from "./Orcid";
-import OauthWorkFlow from "./OauthWorkFlow";
-import WebToken from "./WebToken";
-import AuthModule from "./AuthModule";
-import DscOrderChado from "./DscOrderChado";
-import OrderModule from "./OrderModule";
-import Content from "./Content";
+// Import custom slide components
+import {
+  Intro,
+  DictybaseOverhaul,
+  DatabaseMigration,
+  Architecture,
+  DictyStockCenter,
+  StockProperties,
+  StockInventories,
+  LegacyDataModel,
+  ChadoStcokModule,
+  DictyBaseStocks,
+  GenotypePhenotype,
+  Plasmid,
+  Users,
+  Authentication,
+  OAuth,
+  OauthProviders,
+  Orcid,
+  OauthWorkFlow,
+  WebToken,
+  AuthModule,
+  DscOrderChado,
+  OrderModule,
+  Content
+} from "./slides";
 
 // Import Spectacle Core tags
 import {Deck, Slide, Spectacle} from "spectacle";
