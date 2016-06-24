@@ -9,7 +9,7 @@ export default class ChadoStcokModule extends React.Component {
     return (
       <div>
         <Heading size={1} fit caps lineHeight={1} textColor="tertiary">
-          Chado Stcok Module
+          Chado Stock Module
         </Heading>
         <Text bold caps textColor="#bdc3c7" margin="50px 0px 0px">Text</Text>
       </div>
