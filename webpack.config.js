@@ -15,6 +15,9 @@ module.exports = {
     filename: "bundle.js",
     publicPath: "/dist/"
   },
+  resolve: {
+    extensions: ['', '.js', '.jsx']
+  },
   plugins: [
     new webpack.HotModuleReplacementPlugin(),
     new webpack.NoErrorsPlugin()
