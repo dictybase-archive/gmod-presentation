@@ -61,22 +61,22 @@ export default class Presentation extends React.Component {
           <Slide transition={["zoom"]} bgColor="primary">
             <Intro />
           </Slide>
-          <Slide transition={["slide"]} bgColor="black" notes="You can even put notes on your slide. How awesome is that?">
+          <Slide transition={["slide", "spin"]} bgColor="primary" notes="notes">
             <DictybaseOverhaul />
           </Slide>
-          <Slide transition={["zoom", "fade"]} bgColor="primary" notes="<ul><li>talk about that</li><li>and that</li></ul>">
+          <Slide transition={["zoom", "fade"]} bgColor="primary" notes="notes">
             <DatabaseMigration />
           </Slide>
-          <Slide transition={["slide"]} bgImage={images.city.replace("/", "")} bgDarken={0.75}>
+          <Slide transition={["slide", "fade"]} bgColor="primary" >
             <Architecture />
           </Slide>
           <Slide transition={["zoom", "fade"]} bgColor="primary">
             <DictyStockCenter />
           </Slide>
-          <Slide transition={["slide"]} bgColor="black">
+          <Slide transition={["slide", "spin"]} bgColor="primary">
             <StockProperties />
           </Slide>
-          <Slide transition={["spin", "zoom"]} bgColor="tertiary">
+          <Slide transition={["spin", "zoom"]} bgColor="primary">
             <StockInventories />
           </Slide>
           <Slide transition={["slide", "spin"]} bgColor="primary">
@@ -88,19 +88,19 @@ export default class Presentation extends React.Component {
           <Slide transition={["slide"]} bgColor="primary">
             <DictyBaseStocks />
           </Slide>
-          <Slide transition={["spin", "slide"]} bgColor="tertiary">
+          <Slide transition={["spin", "slide"]} bgColor="primary">
             <GenotypePhenotype />
           </Slide>
-          <Slide transition={["spin", "slide"]} bgColor="primary">
+          <Slide transition={["spin", "zoom"]} bgColor="primary">
             <Plasmid />
           </Slide>
-          <Slide transition={["spin", "slide"]} bgColor="primary">
+          <Slide transition={["spin", "fade"]} bgColor="primary">
             <Users />
           </Slide>
-          <Slide transition={["spin", "slide"]} bgColor="primary">
+          <Slide transition={["slide", "zoom"]} bgColor="primary">
             <Authentication />
           </Slide>
-          <Slide transition={["spin", "slide"]} bgColor="primary">
+          <Slide transition={["slide", "fade"]} bgColor="primary">
             <OAuth />
           </Slide>
           <Slide transition={["spin", "slide"]} bgColor="primary">
@@ -109,22 +109,22 @@ export default class Presentation extends React.Component {
           <Slide transition={["spin", "slide"]} bgColor="primary">
             <Orcid />
           </Slide>
-          <Slide transition={["spin", "slide"]} bgColor="primary">
+          <Slide transition={["slide", "fade"]} bgColor="primary">
             <OauthWorkFlow />
           </Slide>
-          <Slide transition={["spin", "slide"]} bgColor="primary">
+          <Slide transition={["slide", "spin"]} bgColor="primary">
             <WebToken />
           </Slide>
           <Slide transition={["spin", "slide"]} bgColor="primary">
             <AuthModule />
           </Slide>
-          <Slide transition={["spin", "slide"]} bgColor="primary">
+          <Slide transition={["spin", "zoom"]} bgColor="primary">
             <DscOrderChado />
           </Slide>
           <Slide transition={["spin", "slide"]} bgColor="primary">
             <OrderModule />
           </Slide>
-          <Slide transition={["spin", "slide"]} bgColor="primary">
+          <Slide transition={["spin", "fade"]} bgColor="primary">
             <Content />
           </Slide>
         </Deck>
