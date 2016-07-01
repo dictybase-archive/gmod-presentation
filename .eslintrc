@@ -1,10 +1,12 @@
 ---
 "extends":
   - "eslint-config-defaults/configurations/walmart/es6-react"
+  - "eslint-config-defaults/rules/filenames/off"
 
 "rules":
-  "indent": [2, 2, {"SwitchCase": 1}]
+  "indent": [2, 4, {"SwitchCase": 1}]
   "max-len": 0
+  "semi": [2, "never"]
 
 "env":
   "browser": true,
