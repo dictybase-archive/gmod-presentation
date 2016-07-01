@@ -15,6 +15,7 @@ module.exports = {
     filename: "bundle.js",
     publicPath: "/dist/"
   },
+  devtool: "#eval-source-map",
   resolve: {
     extensions: ['', '.js', '.jsx']
   },
