@@ -1,23 +1,14 @@
-export {default as Intro} from "./slides/Intro.jsx";
-export {default as DictybaseOverhaul} from "./slides/DictybaseOverhaul.jsx";
-export {default as DatabaseMigration} from "./slides/DatabaseMigration.jsx";
-export {default as Architecture} from "./slides/Architecture.jsx";
-export {default as DictyStockCenter} from "./slides/DictyStockCenter.jsx";
-export {default as StockProperties} from "./slides/StockProperties.jsx";
-export {default as StockInventories} from "./slides/StockInventories.jsx";
-export {default as LegacyDataModel} from "./slides/LegacyDataModel.jsx";
-export {default as ChadoStcokModule} from "./slides/ChadoStcokModule.jsx";
-export {default as DictyBaseStocks} from "./slides/DictyBaseStocks.jsx";
-export {default as GenotypePhenotype} from "./slides/GenotypePhenotype.jsx";
-export {default as Plasmid} from "./slides/Plasmid.jsx";
-export {default as Users} from "./slides/Users.jsx";
-export {default as Authentication} from "./slides/Authentication.jsx";
-export {default as OAuth} from "./slides/OAuth.jsx";
-export {default as OauthProviders} from "./slides/OauthProviders.jsx";
-export {default as Orcid} from "./slides/Orcid.jsx";
-export {default as OauthWorkFlow} from "./slides/OauthWorkFlow.jsx";
-export {default as WebToken} from "./slides/WebToken.jsx";
-export {default as AuthModule} from "./slides/AuthModule.jsx";
-export {default as DscOrderChado} from "./slides/DscOrderChado.jsx";
-export {default as OrderModule} from "./slides/OrderModule.jsx";
-export {default as Content} from "./slides/Content.jsx";
+export {default as Intro} from "./slides/Intro"
+export {default as OverhaulBackend} from "./slides/overhaul/Backend"
+export {default as OverhaulFrontMiddle} from "./slides/overhaul/FrontMiddle"
+export {default as DatabaseMigration} from "./slides/DatabaseMigration"
+export {default as LegacySGD} from "./slides/datamodel/LegacySGD"
+export {default as LegacyChado} from "./slides/datamodel/LegacyChado"
+export {default as DictyStockCenterMore} from "./slides/DictyStockCenterMore"
+export {default as DictyStockCenter} from "./slides/DictyStockCenter"
+export {default as DscBioData} from "./slides/dsc/Biological"
+export {default as DscBioRelational} from "./slides/dsc/BioRelational"
+export {default as DscNonBio} from "./slides/dsc/NonBiological"
+export {default as DscNewFund} from "./slides/dsc/NonBioNewFund"
+
+
